@@ -1,0 +1,11 @@
+# Skeleton Dupe by Butter
+skeleton-dupe:
+  # Turn on the dupe
+  enabled: true
+  # Chance the item to be duped
+  chance: 30
+
+# Donkey Portal Dupe
+donkey-dupe:
+  # Enables the dupe
+  enabled: true

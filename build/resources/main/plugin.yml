@@ -1,0 +1,4 @@
+name: NDupes
+version: '1.0-SNAPSHOT'
+main: ndt.plugin.nDupes.NDupes
+api-version: '1.20'
