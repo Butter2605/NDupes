@@ -1,6 +1,7 @@
 package ndt.plugin.nDupes;
 
 import ndt.plugin.nDupes.events.DonkeyPortalEvent;
+import ndt.plugin.nDupes.events.DropperEvent;
 import ndt.plugin.nDupes.events.SkeletonEvent;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -18,6 +19,7 @@ public final class NDupes extends JavaPlugin {
 
         getServer().getPluginManager().registerEvents(new SkeletonEvent(this), this);
         getServer().getPluginManager().registerEvents(new DonkeyPortalEvent(this), this);
+        getServer().getPluginManager().registerEvents(new DropperEvent(this), this);
         Bukkit.getLogger().info("[NDupes] Plugin loaded successfully");
     }
 

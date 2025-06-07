@@ -9,3 +9,11 @@ skeleton-dupe:
 donkey-dupe:
   # Enables the dupe
   enabled: true
+  # Whether the drops should be multiple three times
+  triple-drops: false
+
+# Dropper Dupe
+dropper-dupe:
+  enabled: true
+  probability: 100
+  cooldown: 1
